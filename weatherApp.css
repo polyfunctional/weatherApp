@@ -1,0 +1,39 @@
+body {
+  background-color: beige;
+  background-image: url(#);
+  background-repeat: repeat;
+}
+
+body,
+h1,
+h3,
+p{
+  font-family: Helvetica, Arial, Sans-serif;
+}
+
+.container{
+  align: center;
+  text-align: left;
+  padding-top: 50px;
+}
+
+hr{
+  width: 600px;
+  border-bottom: 1px solid black;
+}
+
+.quote-box{
+  align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+
+#userTemp{
+  background-color: Transparent;
+  background-repeat:no-repeat;          
+  cursor:pointer;
+  overflow: hidden;
+  outline: none;
+}
